@@ -27,10 +27,10 @@ from langchain_community.vectorstores import FAISS
 from langchain_community.embeddings import HuggingFaceEmbeddings
 from typing import List
 # Load .env explicitly from project root
-#load_dotenv(dotenv_path=Path(__file__).resolve().parent / ".env")
+load_dotenv(dotenv_path=Path(__file__).resolve().parent / ".env")
 
-#EURI_API_KEY = os.getenv("EURI_API_KEY", "")
-EURI_API_KEY="euri-484faba612354addf4b29e160cccfac93e09d7ff55cc32f58fca5b4dce3e837c"
+EURI_API_KEY = os.getenv("EURI_API_KEY", "")
+#EURI_API_KEY="euri-484faba612354addf4b29e160cccfac93e09d7ff55cc32f58fca5b4dce3e837c"
 
 
 st.set_page_config(page_title="Healthcare PDF Hub", page_icon="📄", layout="wide")
