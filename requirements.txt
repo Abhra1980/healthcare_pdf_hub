@@ -1,2 +1,8 @@
-streamlit>=1.36
-pypdf>=4.2
+streamlit
+fpdf
+pypdf
+faiss-cpu
+langchain
+euriai 
+langchain_community
+sentence-transformers
