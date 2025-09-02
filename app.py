@@ -33,7 +33,7 @@ from typing import List
 from dotenv import load_dotenv
 load_dotenv() 
 EURI_API_KEY = os.getenv("EURI_API_KEY")
-#EURI_API_KEY="euri-484faba612354addf4b29e160cccfac93e09d7ff55cc32f58fca5b4dce3e837c"
+
 
 
 st.set_page_config(page_title="Healthcare PDF Hub", page_icon="📄", layout="wide")
