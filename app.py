@@ -29,7 +29,7 @@ from typing import List
 # Load .env explicitly from project root
 load_dotenv(dotenv_path=Path(__file__).resolve().parent / ".env")
 
-EURI_API_KEY = os.getenv("EURI_API_KEY")
+EURI_API_KEY = os.getenv("EURI_API_KEY", "")
 
 
 
