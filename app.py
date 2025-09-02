@@ -6,7 +6,7 @@ from pathlib import Path
 import streamlit as st
 #from dotenv import load_dotenv
 import sys
-sys.path.append(str(Path(__file__).resolve().parent / "src"))
+#sys.path.append(str(Path(__file__).resolve().parent / "src"))
 
 
 from src.healthcare_pdf_hub.utils.chat_model import get_chat_model, ask_chat_model
@@ -27,7 +27,7 @@ from langchain_community.vectorstores import FAISS
 from langchain_community.embeddings import HuggingFaceEmbeddings
 from typing import List
 # Load .env explicitly from project root
-load_dotenv(dotenv_path=Path(__file__).resolve().parent / ".env")
+#load_dotenv(dotenv_path=Path(__file__).resolve().parent / ".env")
 
 #EURI_API_KEY = os.getenv("EURI_API_KEY", "")
 EURI_API_KEY="euri-484faba612354addf4b29e160cccfac93e09d7ff55cc32f58fca5b4dce3e837c"
