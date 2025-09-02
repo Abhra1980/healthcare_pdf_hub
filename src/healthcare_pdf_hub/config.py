@@ -3,10 +3,16 @@ from pathlib import Path
 from typing import Dict 
 #pdf_dir = Path("./medical_report")
 
+# ABS_DEFAULTS = {
+#     "medical":  Path(r"C:\Data Science\Healthcare-PDF-Hub-Modular\src\healthcare_pdf_hub\medical_report"),
+#     "medicine": Path(r"C:\Data Science\Healthcare-PDF-Hub-Modular\src\healthcare_pdf_hub\medicine"),
+#     "hospital": Path(r"C:\Data Science\Healthcare-PDF-Hub-Modular\src\healthcare_pdf_hub\hospital"),
+# }
+
 ABS_DEFAULTS = {
-    "medical":  Path(r"C:\Data Science\Healthcare-PDF-Hub-Modular\src\healthcare_pdf_hub\medical_report"),
-    "medicine": Path(r"C:\Data Science\Healthcare-PDF-Hub-Modular\src\healthcare_pdf_hub\medicine"),
-    "hospital": Path(r"C:\Data Science\Healthcare-PDF-Hub-Modular\src\healthcare_pdf_hub\hospital"),
+    "medical":  Path("./src/healthcare_pdf_hub/medical_report"),
+    "medicine": Path("./src/healthcare_pdf_hub/medicine"),
+    "hospital": Path("./src/healthcare_pdf_hub/hospital"),
 }
 
 REL_FALLBACKS = {
