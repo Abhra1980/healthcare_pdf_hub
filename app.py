@@ -515,7 +515,7 @@ with tabs[4]:
 
     # YouTube video embed
     st.markdown("### 🎥 Watch the App Walkthrough")
-    st.video("https://www.youtube.com/watch?v=dQw4w9WgXcQ")  # replace link with your real video
+    st.video("https://youtu.be/4CEC0QiPDes")  # replace link with your real video
 
     st.divider()
 
