@@ -4,7 +4,7 @@ import pandas as pd
 from datetime import datetime
 from pathlib import Path
 import streamlit as st
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 import sys
 sys.path.append(str(Path(__file__).resolve().parent / "src"))
 
